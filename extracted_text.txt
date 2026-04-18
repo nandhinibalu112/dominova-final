@@ -1,0 +1,294 @@
+﻿Cannot 
+Cannot add the same private member more than once
+Module
+Objects are not valid as a React child (found: 
+React.Children.only expected to receive a single React element child.
+React.cloneElement(...): The argument must be a React element, but you passed 
+Minified React error #
+Capture
+Suspense
+SuspenseList
+Fragment
+Portal
+Profiler
+StrictMode
+Context
+ForwardRef(
+ForwardRef
+Cache
+DehydratedFragment
+Offscreen
+Scope
+TracingMarker
+Webkit
+Escape
+ArrowLeft
+ArrowUp
+ArrowRight
+ArrowDown
+Delete
+ContextMenu
+ScrollLock
+Unidentified
+Backspace
+Clear
+Enter
+Shift
+Control
+Pause
+CapsLock
+PageUp
+PageDown
+Insert
+NumLock
+CompositionEvent
+TextEvent
+Animation
+AnimationEnd
+AnimationIteration
+AnimationStart
+Transition
+TransitionEnd
+AnimationEvent
+TransitionEvent
+Unknown
+DELETED
+REMOVE_TOAST
+ADD_TOAST
+UPDATE_TOAST
+DISMISS_TOAST
+Provider
+CollectionProvider
+CollectionSlot
+CollectionItemSlot
+CollectionConsumer
+DismissableLayer
+DismissableLayerBranch
+Presence
+MOUNT
+UNMOUNT
+ANIMATION_OUT
+ANIMATION_END
+VisuallyHidden
+ToastProvider
+Toast
+Notification
+ToastViewport
+Notifications ({hotkey})
+ToastFocusProxy
+ToastTitle
+ToastDescription
+ToastAction
+ToastClose
+INPUT
+Award
+BookOpen
+Briefcase
+Calendar
+CircleCheckBig
+Clock
+CreditCard
+FileText
+Globe
+GraduationCap
+Instagram
+Laptop
+Layers
+Linkedin
+MapPin
+Megaphone
+Monitor
+Phone
+Rocket
+Share2
+Smartphone
+TrendingUp
+UserCheck
+Users
+Wallet
+Wrench
+Close toast
+BUTTON
+Notifications
+Arrow
+Popper
+PopperAnchor
+PopperContent
+PopperArrow
+Tooltip
+TooltipProvider
+TooltipTrigger
+TooltipPortal
+TooltipContent
+TooltipArrow
+CancelledError
+No mutationFn found
+REPLACE
+DataCloneError
+A history only accepts one active listener
+Index routes must not have child routes. Please remove 
+Unexpected Application Error!
+React Router caught the following error during render
+Cubic bezier arrays must contain four numerical values.
+Spring duration must be 10 seconds or less
+Both input and output ranges must be the same length
+AnimationComplete
+SELECT
+TEXTAREA
+Update
+LayoutMeasure
+LayoutAnimationStart
+LayoutAnimationComplete
+TopLeft
+TopRight
+BottomLeft
+BottomRight
+Start
+Cancel
+Width
+Height
+Container ref is defined but not hydrated
+Ambassador
+Services
+Community & Events
+Contact
+Dominova
+Toggle theme
+Apply Now
+Become Campus Ambassador
+Lead Your Campus
+Build Real Skills
+Grow Your Career
+Join Dominova Community
+Campus Ambassador
+Program
+Build your career while representing Dominova in your college
+Apply for Ambassador
+Apply for Internship
+Join Community
+Internships
+Courses
+Workshops
+Web Development
+Mobile App Dev
+Digital Marketing
+Career Programs
+Community Programs
+About 
+Represent Dominova in your college
+Flexible work â 45 day cycle
+Performance based incentives
+Wallet system for earnings
+Certificates & leadership growth
+Cycle Start
+Get onboarded and receive tasks
+Complete ambassador tasks
+Complete Tasks
+Submit proofs and reports
+Cycle Reset
+Withdraw earnings, new cycle begins
+Ambassador 
+Join as a campus ambassador and kickstart your professional journey
+Onboarding
+Clear interview
+Receive certificate by mail
+Post certificate on LinkedIn
+Tag Dominova
+Community Promotion
+Share community link
+Send to 5+ large WhatsApp groups
+Groups must have high members
+Take screenshots & submit proof
+Internship Onboarding
+Bring students to paid internship
+After payment, incentive added to wallet
+Social Promotion
+Promote Dominova Instagram
+Promote Dominova LinkedIn
+Bring followers
+Report Submission
+Submit report after 45 days
+All tasks completed
+Wallet unlocked
+Withdraw payment
+Tasks
+Task 
+Up to â¹1,000
+Up to â¹1,800
+Up to â¹3,500
+Up to â¹6,400
+Incentive & 
+Earnings
+Students Pay
+Incentive Added
+Wallet Stored
+Withdraw
+Payment only after student payment
+No payment for unpaid registration
+Cycle duration: 45 days
+Amount stored in wallet
+Wallet withdraw after cycle completion
+Payment 
+Rules
+Complete any 1 task
+Complete any 2 tasks
+Complete any 3 tasks
+Complete all tasks
+Unlock Rules
+Students Trained
+Internships Completed
+Ambassadors
+Colleges Reached
+Full ambassador program details, benefits, and application process
+Web development, mobile apps, digital marketing, and more
+Join workshops, hackathons, and student community events
+Get in touch with Dominova for partnerships and queries
+Explore 
+Coming soon â detailed pages for every section
+Coming Soon
+Join 
+Start your journey today and unlock real career opportunities
+Apply Ambassador
+Apply Internship
+IT Services & EdTech company empowering students across India.
+Follow Us
+Follow us on Instagram
+Campus Ambassadors
+The faces driving our mission forward
+New ambassadors added regularly
+Gain real-world experience with structured internship programs across tech, marketing, and design domains.
+Industry-aligned courses designed to build job-ready skills in web development, data science, and more.
+Hands-on workshops conducted by industry professionals to sharpen practical skills.
+End-to-end web development services including design, development, and deployment for businesses and startups.
+Mobile App Development
+Native and cross-platform mobile apps built with modern frameworks and best practices.
+SEO, social media marketing, content strategy, and paid ads to grow your brand online.
+Training Programs
+Corporate and student training programs tailored to bridge the gap between academics and industry.
+Student Programs
+Career development programs, hackathons, and mentorship for college students.
+Campus Ambassador Program
+Leadership opportunity for students to represent Dominova and earn incentives while building skills.
+Tech communities, networking events, and collaborative learning spaces for aspiring professionals.
+Projects Delivered
+Workshops Conducted
+Partner Colleges
+Our Services
+Why Dominova
+We blend education, technology, and community to create real career impact for students across India.
+Workshops & Bootcamps
+Events & Meetups
+Ambassador Events
+Community Members
+Events Hosted
+Workshops Done
+Be part of a vibrant community that learns, builds, and grows together.
+View Portfolio
+Email
+Location
+Chennai, Tamil Nadu
+Website
+LinkedIn
+Contact Us
+Get in touch with the Dominova team
+Oops! Page not found

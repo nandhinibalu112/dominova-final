@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dominova Campus Ambassador Program</title>
+    <meta name="description"
+        content="Join the Dominova Campus Ambassador Program. Earn while you learn, build real skills, and get internships.">
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Dynamic Background Blobs -->
+    <div class="background-blobs">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+    </div>
+
+    <!-- Soft Animated Particles -->
+    <div class="background-particles">
+        <span style="left: 10%; animation-duration: 25s; animation-delay: 0s;"></span>
+        <span style="left: 20%; animation-duration: 35s; animation-delay: -5s;"></span>
+        <span style="left: 30%; animation-duration: 20s; animation-delay: -10s;"></span>
+        <span style="left: 40%; animation-duration: 28s; animation-delay: -2s;"></span>
+        <span style="left: 50%; animation-duration: 30s; animation-delay: -8s;"></span>
+        <span style="left: 60%; animation-duration: 22s; animation-delay: -15s;"></span>
+        <span style="left: 70%; animation-duration: 32s; animation-delay: -3s;"></span>
+        <span style="left: 80%; animation-duration: 26s; animation-delay: -12s;"></span>
+        <span style="left: 90%; animation-duration: 29s; animation-delay: -7s;"></span>
+    </div>
+
+    <!-- NAVBAR -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- LEFT: Logo -->
+            <div class="logo">Dominova</div>
+
+            <!-- CENTER: Menu -->
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#ambassador">Ambassador</a>
+                <a href="#about">Services</a>
+                <a href="#tasks">Community & Events</a>
+                <a href="#footer">Contact</a>
+            </nav>
+
+            <!-- RIGHT: Actions -->
+            <div class="nav-right">
+                <button class="theme-toggle" id="theme-toggle">🌙</button>                <a href="https://forms.gle/ewCrJHH6D9ZhHRbF8" target="_blank" rel="noopener noreferrer"
+                    class="apply-btn">Apply Now</a>
+                <button class="menu-icon" id="mobile-menu-btn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- MOBILE MENU OVERLAY (CLEANED) -->
+    <div class="mobile-menu-overlay" id="mobile-overlay"></div>
+    <div class="mobile-menu" id="mobile-menu">
+        <div class="mobile-menu-header">
+            <!-- Close button removed per user request -->
+        </div>
+        <nav class="mobile-links" style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem;">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#ambassador" class="mobile-link">Ambassador</a>
+            <a href="#about" class="mobile-link">Services</a>
+            <a href="#tasks" class="mobile-link">Community & Events</a>
+            <a href="#footer" class="mobile-link">Contact</a>
+            <a href="https://forms.gle/ewCrJHH6D9ZhHRbF8" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="text-align: center;">Apply Now</a>
+        </nav>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container hero-container">
+            <div class="typing-text">
+                <span id="changing-text"></span>
+            </div>
+
+            <h1 class="hero-title">Dominova</h1>
+            <h2 class="hero-subtitle">Campus Ambassador Program</h2>
+            <p class="hero-description">Build your career while representing Dominova in your college</p>
+
+            <div class="hero-buttons">
+                <a href="https://forms.gle/ewCrJHH6D9ZhHRbF8" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-hero-primary">Apply for Ambassador</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUViucS4dHVeclfPZkE-yeV3QrBg2LQJU3gWmg-2Rkr2pnAg/viewform" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-hero-outline">Apply for Internship</a>
+                <a href="https://chat.whatsapp.com/KR2smflkWytDxVsbcOEDbB" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-hero-outline">Join Community</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- 1. ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title underline">About <span class="accent-text">Dominova</span></h2>
+                <p class="section-subtitle">Empowering student leaders with real-world skills and career opportunities.
+                </p>
+            </div>
+            <div class="grid-small">
+                <div class="small-card revealing">
+                    <i data-lucide="briefcase" class="icon"></i>
+                    <h3>Internships</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="graduation-cap" class="icon"></i>
+                    <h3>Courses</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="wrench" class="icon"></i>
+                    <h3>Workshops</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="code" class="icon"></i>
+                    <h3>Web Development</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="smartphone" class="icon"></i>
+                    <h3>Mobile App Dev</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="trending-up" class="icon"></i>
+                    <h3>Digital Marketing</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="award" class="icon"></i>
+                    <h3>Career Programs</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="globe" class="icon"></i>
+                    <h3>Community Programs</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. AMBASSADOR PROGRAM -->
+    <section class="ambassador" id="ambassador">
+        <div class="container">
+            <div class="section-title-wrapper">
+                <h2 class="section-title underline">Ambassador <span class="accent-text">Program</span></h2>
+            </div>
+            <div class="row-5">
+                <div class="small-card revealing">
+                    <i data-lucide="user-check" class="icon"></i>
+                    <h3>Represent Dominova</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="calendar" class="icon"></i>
+                    <h3>45 Day Cycle</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="rocket" class="icon"></i>
+                    <h3>Incentives</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="wallet" class="icon"></i>
+                    <h3>Wallet System</h3>
+                </div>
+                <div class="small-card revealing">
+                    <i data-lucide="award" class="icon"></i>
+                    <h3>Growth</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 3. PROCESS SECTION -->
+    <section class="process" id="process">
+        <div class="container">
+            <h2 class="section-title center underline">Process</h2>
+            <div class="process-row">
+                <div class="step-box revealing">
+                    <h3>Cycle Start</h3>
+                    <p>Onboarding & Tasks</p>
+                </div>
+                <div class="step-box revealing">
+                    <h3>Work</h3>
+                    <p>Complete Tasks</p>
+                </div>
+                <div class="step-box revealing">
+                    <h3>Submission</h3>
+                    <p>Proofs & Reports</p>
+                </div>
+                <div class="step-box revealing">
+                    <h3>Reset</h3>
+                    <p>Withdraw & Restart</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. AMBASSADOR TASKS -->
+    <section class="tasks" id="tasks">
+        <div class="container">
+            <h2 class="section-title center underline">Ambassador <span class="accent-text">Tasks</span></h2>
+            <div class="tasks-grid-fancy">
+                <div class="task-card-mini revealing">
+                    <div class="task-header"><i data-lucide="list-checks"></i>
+                        <h3>Task 1: Onboarding</h3>
+                    </div>
+                    <ul>
+                        <li>Interview screening</li>
+                        <li>LinkedIn post with certificate</li>
+                        <li>Social media verification</li>
+                    </ul>
+                </div>
+                <div class="task-card-mini revealing">
+                    <div class="task-header"><i data-lucide="megaphone"></i>
+                        <h3>Task 2: Community</h3>
+                    </div>
+                    <ul>
+                        <li>Community link sharing</li>
+                        <li>5+ WhatsApp groups</li>
+                        <li>Engagement reports</li>
+                    </ul>
+                </div>
+                <div class="task-card-mini revealing">
+                    <div class="task-header"><i data-lucide="user-plus"></i>
+                        <h3>Task 3: Internships</h3>
+                    </div>
+                    <ul>
+                        <li>Bring paid interns</li>
+                        <li>Facilitate onboarding</li>
+                    </ul>
+                </div>
+                <div class="task-card-mini revealing">
+                    <div class="task-header"><i data-lucide="share-2"></i>
+                        <h3>Task 4: Social</h3>
+                    </div>
+                    <ul>
+                        <li>Instagram promotion</li>
+                        <li>Follower growth</li>
+                    </ul>
+                </div>
+                <div class="task-card-mini revealing">
+                    <div class="task-header"><i data-lucide="file-check"></i>
+                        <h3>Task 5: Report</h3>
+                    </div>
+                    <ul>
+                        <li>Final report after 45 days</li>
+                        <li>Unlock full wallet</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. INCENTIVE & EARNINGS -->
+    <section class="incentive" id="incentive">
+        <div class="container">
+            <h2 class="section-title center underline">Incentive <span class="accent-text">& Earnings</span></h2>
+            <div class="incentive-row">
+                <div class="mini-slab revealing">
+                    <div class="slab-val">₹250</div>
+                    <div class="slab-per">per student</div>
+                    <div class="slab-range">1–4 students</div>
+                    <div class="slab-total">Up to ₹1,000</div>
+                </div>
+                <div class="mini-slab active revealing">
+                    <div class="slab-val">₹300</div>
+                    <div class="slab-per">per student</div>
+                    <div class="slab-range">5–6 students</div>
+                    <div class="slab-total">Up to ₹1,800</div>
+                </div>
+                <div class="mini-slab revealing">
+                    <div class="slab-val">₹350</div>
+                    <div class="slab-per">per student</div>
+                    <div class="slab-range">7–10 students</div>
+                    <div class="slab-total">Up to ₹3,500</div>
+                </div>
+                <div class="mini-slab revealing">
+                    <div class="slab-val">₹400</div>
+                    <div class="slab-per">per student</div>
+                    <div class="slab-range">11–16 students</div>
+                    <div class="slab-total">Up to ₹6,400</div>
+                </div>
+                <div class="mini-slab revealing">
+                    <div class="slab-val">₹450</div>
+                    <div class="slab-per">per student</div>
+                    <div class="slab-range">17–20 students</div>
+                    <div class="slab-total">₹9,000+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. PAYMENT RULES -->
+    <section class="payment-rules">
+        <div class="container">
+            <div class="light-rules-box revealing">
+                <h2 class="section-title center underline">Payment <span class="accent-text">Rules</span></h2>
+                <div class="flow-row-small">
+                    <div class="flow-item"><i data-lucide="credit-card"></i><span>Pay</span></div>
+                    <div class="flow-item"><i data-lucide="plus-circle"></i><span>Add</span></div>
+                    <div class="flow-item"><i data-lucide="wallet"></i><span>Wallet</span></div>
+                    <div class="flow-item"><i data-lucide="banknote"></i><span>Withdraw</span></div>
+                </div>
+                <div class="rules-list-light">
+                    <ul>
+                        <li>Payout after student payment completion</li>
+                        <li>Unpaid registrations do not count</li>
+                        <li>Standard 45-day growth cycle</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. TASK UNLOCK RULES -->
+    <section class="unlock-rules">
+        <div class="container">
+            <h2 class="section-title center underline">Task <span class="accent-text">Unlock Rules</span></h2>
+            <div class="unlock-wrapper">
+                <div class="bar-row revealing">
+                    <div class="bar-header"><span>Complete any 1 task</span><span>1–4 Students</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 25%"></div>
+                    </div>
+                </div>
+                <div class="bar-row revealing">
+                    <div class="bar-header"><span>Complete any 2 tasks</span><span>5–10 Students</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 50%"></div>
+                    </div>
+                </div>
+                <div class="bar-row revealing">
+                    <div class="bar-header"><span>Complete any 3 tasks</span><span>11–16 Students</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="bar-row revealing">
+                    <div class="bar-header"><span>Complete all tasks</span><span>17+ Students</span></div>
+                    <div class="bar-bg">
+                        <div class="bar-fill" style="width: 100%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. STATS SECTION -->
+    <section class="stats" id="stats">
+        <div class="container">
+            <div class="stats-container-light revealing">
+                <div class="stats-grid-light">
+                    <div class="stat-item-light">
+                        <span class="num">500+</span>
+                        <span class="label">Students Trained</span>
+                    </div>
+                    <div class="stat-item-light">
+                        <span class="num">200+</span>
+                        <span class="label">Internships Completed</span>
+                    </div>
+                    <div class="stat-item-light">
+                        <span class="num">150+</span>
+                        <span class="label">Ambassadors</span>
+                    </div>
+                    <div class="stat-item-light">
+                        <span class="num">50+</span>
+                        <span class="label">Colleges Reached</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. EXPLORE MORE -->
+    <section class="explore" id="explore">
+        <div class="container">
+            <h2 class="section-title center underline">Explore <span class="accent-text">More</span></h2>
+            <div class="explore-grid-4">
+                <div class="explore-card-light revealing">
+                    <div class="icon"><i data-lucide="award"></i></div>
+                    <h3>Ambassadors</h3>
+                    <p>Leaderboard & community portal</p>
+                    <span class="coming-soon">Coming Soon</span>
+                </div>
+                <div class="explore-card-light revealing">
+                    <div class="icon"><i data-lucide="layers"></i></div>
+                    <h3>Services</h3>
+                    <p>EdTech & IT solutions portal</p>
+                    <span class="coming-soon">Coming Soon</span>
+                </div>
+                <div class="explore-card-light revealing">
+                    <div class="icon"><i data-lucide="zap"></i></div>
+                    <h3>Events</h3>
+                    <p>Hackathons & live webinars</p>
+                    <span class="coming-soon">Coming Soon</span>
+                </div>
+                <div class="explore-card-light revealing">
+                    <div class="icon"><i data-lucide="mail"></i></div>
+                    <h3>Contact</h3>
+                    <p>Direct support channels</p>
+                    <span class="coming-soon">Coming Soon</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. FINAL CTA -->
+    <section class="final-cta">
+        <div class="container">
+            <div class="cta-light-box revealing">
+                <h2>Join <span class="accent-text">Dominova Campus Ambassador</span></h2>
+                <p>Start your professional journey today and lead the tech initiative in your college.</p>
+                <div class="cta-btns-light">
+                    <a href="https://forms.gle/ewCrJHH6D9ZhHRbF8" target="_blank"
+                        class="btn btn-primary btn-rounded">Apply Ambassador</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSfUViucS4dHVeclfPZkE-yeV3QrBg2LQJU3gWmg-2Rkr2pnAg/viewform" target="_blank"
+                        class="btn btn-secondary btn-rounded">Apply Internship</a>
+                    <a href="https://chat.whatsapp.com/KR2smflkWytDxVsbcOEDbB" target="_blank"
+                        class="btn btn-outline btn-rounded">Join Community</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="domino-footer">
+        <div class="domino-footer-container">
+
+            <div class="domino-footer-col">
+                <h2 class="domino-logo">Dominova</h2>
+                <p>IT Services & EdTech company empowering students across India.</p>
+            </div>
+
+            <div class="domino-footer-col">
+                <h3>Contact</h3>
+                <p>📞 +91 8754325192</p>
+                <p>✉ dominova.office@gmail.com</p>
+                <p>📍 Chennai, Tamil Nadu</p>
+                <p>🌐 dominova.tech</p>
+            </div>
+
+            <div class="domino-footer-col">
+                <h3>Follow us</h3>
+                <div class="domino-social-icons">
+                    <a href="https://www.instagram.com/dominova_chennai_"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/authwall?trk=bf&trkInfo=AQGUGE-Xr-iLbgAAAZ2fc6cQMvBKG7dmGKV3bPUuqzIiZ_z4jBeZ0t_lxtcVKpDNiXtWKSKdpz6pw4oJ21ky9PPbLXCKmT5mzlcLa-42W7iLh9lulOuCGBqaBx-RJE9DljpvMYo=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fdominovatech%2F"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://dominova-portfolio-showcase.vercel.app/"><i class="fas fa-briefcase"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="domino-footer-bottom">
+            © 2026 Dominova. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- SCROLL TO TOP -->
+    <button id="scroll-top" class="scroll-top-btn" aria-label="Scroll to top">
+        <i data-lucide="chevron-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+
+</html>
